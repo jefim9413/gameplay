@@ -8,6 +8,7 @@ import {
 
 
 import IllustrationImg from '../assets/illustration.png';
+import { ButtonIcon } from '../components/ButtonIcon';
 import {styles} from './styles';
 
 
@@ -39,6 +40,10 @@ export function SignIn(){
                     favoritos com seus amigos
                 </Text>
 
+                <ButtonIcon 
+                    title="Entrar com Discord"
+                    activeOpacity={.8}
+                />
 
             </View>
 
