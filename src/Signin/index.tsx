@@ -16,11 +16,7 @@ export function SignIn(){
     return(
         <View style={styles.container}> 
             
-            <StatusBar
-                barStyle="light-content"
-                backgroundColor="transparent"
-                translucent
-            />
+            
             
             <Image 
                 source={IllustrationImg} 
@@ -33,6 +29,7 @@ export function SignIn(){
                     Conecte-se{`\n`}
                     e organize suas {`\n`}
                     jogatinas
+
                 </Text>
 
                 <Text style={styles.subtitle}>
