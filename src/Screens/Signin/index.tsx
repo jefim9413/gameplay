@@ -8,7 +8,7 @@ import {
 
 
 import IllustrationImg from '../assets/illustration.png';
-import { ButtonIcon } from '../components/ButtonIcon';
+import { ButtonIcon } from '../../components/ButtonIcon';
 import {styles} from './styles';
 
 
